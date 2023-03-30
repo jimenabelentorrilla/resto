@@ -6,7 +6,7 @@ import Bg from "../assets/about-background.png";
 
 function About() {
     return (
-        <div>
+        <div id="about" className="about">
             <img className="bg-about" src={Bg}/>
             <div className="about-flex">
                 <div>
