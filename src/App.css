@@ -1,0 +1,225 @@
+/*NavBar*/
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 56px 115px;
+    gap: 10px;
+    z-index: 9999;
+    position: relative;
+    justify-content: space-between;
+}
+.nav-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 1106px;
+    height: 66px;
+    gap:40px;
+    width: 1106px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:40px;
+    padding: 10px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #373737;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+}
+.nav-btn{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 21px;
+    color: #373737;
+    background: #FFFFFF;
+    border-radius: 72px;
+    width: 218px;
+    height: 72px;
+    cursor: pointer;
+    border: none;
+}
+
+/*HomePage*/
+.home-flexx{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+}
+.home-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+    width: 693px;
+    height: 531px;
+   
+}
+.home-title{
+    width: 680px;
+    height: 237px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    color: #4C4C4C;
+}
+
+.home-paragraph{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;    
+    color: #828282;
+    width: 639px;
+    height: 108px;
+}
+
+.home-btn{
+    width: 300px;
+    height: 90px;
+    background: #FE9E0D;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 55px;
+    gap: 20px;
+    background: #FE9E0D;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+
+}
+/*Banner*/
+.banner{
+    position: absolute;
+    left: 868px;
+    top: 0px;
+    z-index: 1;
+}
+/*About*/
+.bg-about{
+    position: absolute;
+width: 331px;
+height: 1052px;
+left: 0px;
+top: 1260px;
+z-index: 1;
+}
+.about-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 300px 0px;
+    z-index: 5;
+    position: relative;
+}
+.about-section-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 82px;
+    width: 766px;
+    height: 656px;
+}
+.about-section-text span{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #F4980D;
+}
+.about-section-text h2{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    color: #4C4C4C;
+}
+.about-section-text p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #828282;
+    width: 717px;
+    height: 108px;
+}
+.btn-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 75px;
+}
+.btn-flex button{
+    padding: 10px;
+    gap: 10px;
+    width: 280px;
+    height: 90px;
+    background: #FE9E0D;
+    border-radius: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.btn-watch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 17px;
+    width: 290px;
+    height: 61px;
+}
+.btn-watch span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #515151;
+
+}
