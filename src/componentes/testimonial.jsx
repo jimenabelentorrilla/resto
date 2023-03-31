@@ -4,7 +4,7 @@ import Ratings from "../assets/Ratings.png";
 function Testimonial() {
   return (
     <>
-    <div className="testimonial"> 
+    <div id="testimonials" className="testimonial"> 
         <div className="testimonial-flex">
             <span>Testimonial</span>
             <h3>What They Are Saying</h3>

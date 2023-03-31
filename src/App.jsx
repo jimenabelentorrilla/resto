@@ -6,7 +6,8 @@ import Banner from "./componentes/banner";
 import About from "./componentes/about";
 import Work from "./componentes/work";
 import Testimonial from './componentes/testimonial';
-
+import Contact from "./componentes/contact";
+import Footer from './componentes/footer';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <About />
       <Work />
       <Testimonial />
+      <Contact />
+      <Footer />
     </div>
   )
 }
